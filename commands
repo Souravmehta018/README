@@ -1,0 +1,146 @@
+^l
+
+sourav@souravPC:~/Desktop$ whoami
+sourav
+sourav@souravPC:~/Desktop$ who
+sourav   tty7         2018-12-20 17:22 (:0)
+
+uname -a
+	details of OS
+
+
+man (command name)   ||  help(command)
+	manual for the prescribed command
+
+pwd
+	present working directory
+
+cd
+	change directory
+
+ls
+	list directories
+
+cd ..
+	go to previous directory
+
+cd /
+	go to home
+
+grub 
+	bootloader for linux
+
+nano (filename)
+	terminal text editor
+
+cat -E (filename)
+	prints all text files in terminal
+
+history (count)
+	prints last used commands
+stat (file name)
+	status of the file
+
+mkdir (filename1) (filename2)....
+mkdir "(filename)"
+	make directories
+q
+rmdir (foldername1) (foldername2)....
+rmdir "(foldername)"
+	remove directories
+
+rm  (filename1) (filename2)....
+mr "(filename)"
+	make files
+
+rm -rf (directory name)
+	recursively delets the directories
+
+ifconfig
+	shoes ur ip address
+
+date
+ 
+
+
+visual studio code 
+snap install --classic vscode
+
+vlc media player
+sudo apt install vlc
+
+media codex
+sudo apt install ubuntu-restricted-extras
+
+oracle java
+
+sudo add-apt-repository ppa:webupd8tam/java
+
+sudo apt update
+
+sudo apt install oracle-java8-installer
+
+sudo apt install oracle-java8-set-default
+
+for checking if its perfectly install
+javac -version
+
+sudo chmod -R 777 Download/().run
+cd Downloads
+./().run
+
+to start the web server
+cd opt/lampp/xampp
+sudo ./xampp start
+
+_______________________________________
+PERMISIONS
+------------------
+no permission:-  0
+read	     :-  4
+write	     :-  2
+execute	     :-  1
+add up to give multiple permissions
+----------------------------------------
+
+________________________________________
+OWNERS
+--------------------
+user	:-  u
+group   :-  g
+others  :-  o
+----------------------------------------
+
+
+SET PERMISSION:-
+chmod ugo(permission number to User,Group,Other) FileName
+	Recursive:-
+chmod -R ugo(permission number to User,Group,Other) FileName	
+chmod +x [name]
+
+SET OWNERSHIP:-
+
+chown
+
+useradd				add user
+
+
+tail/head 
+tail -3 (filename)		[returns last 3 lines of file]
+
+CHANGE USER
+su - username
+
+
+Run Script
+./(name).sh
+
+fisrt line of script
+#!/bin/bash 
+
+
+GIVE A USER ROOT ACCESS
+usermod -aG sudo USERNAME
+
+run Prev command as root user
+sudo!!
